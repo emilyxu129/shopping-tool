@@ -1,0 +1,18 @@
+{
+  "name": "shopping-tool",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build",
+    "db:edit": "node scripts/edit-product.js",
+    "db:migrate:supabase": "node scripts/migrate-sqlite-to-supabase.js",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}
